@@ -1,0 +1,25 @@
+<runscript output="output/asprilo-md/{APP}__h-{H}__n-{N}">
+
+	<machine name="komputer" cpu="24x8xE5520@2.27GHz" memory="24GB"/>
+	
+	<config name="seq-asprilo" template="../programs/seq-asprilo.sh"/>
+  
+	<system name="general_compute" version="1" measures="clingo" config="seq-asprilo">
+
+		<setting name="horizontal_before_vertical" cmdline="{APP} asprilo-md {H} {N} del horizontally_before_vertically {CLINGO_ARGS}" tag="basic" />
+    </system>
+
+	<pbsjob name="pbs-gen" partition="short" timeout="1200" runs="1" script_mode="timeout" walltime="00:50:00" cpt="4"/>
+
+	<benchmark name="asprilo-md-benchmark">
+		<folder path="/home/hahnmartinlu/temporal-automata/atlingo/benchmarks/instances/asprilo-md"> 
+			<ignore  prefix="structured/x10"/>
+		</folder> 
+	</benchmark>
+	
+	<project name="temporal-automata" job="pbs-gen">
+		<runtag machine="komputer" benchmark="asprilo-md-benchmark" tag="basic"/>
+	</project>
+
+</runscript>
+

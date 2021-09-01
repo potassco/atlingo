@@ -1,0 +1,24 @@
+<runscript output="output/elevator/{APP}__h-{H}__n-{N}">
+
+	<machine name="komputer" cpu="24x8xE5520@2.27GHz" memory="24GB"/>
+	
+	<config name="seq-elevator" template="../programs/seq-elevator.sh"/>
+  
+	<system name="general_compute" version="1" measures="clingo" config="seq-elevator">
+
+		<setting name="best" cmdline="{APP} elevator {H} {N} best {CLINGO_ARGS}" tag="basic" />
+    </system>
+
+	<pbsjob name="pbs-gen" partition="short" timeout="1200" runs="1" script_mode="timeout" walltime="00:50:00" cpt="4"/>
+
+	<benchmark name="elevator-benchmark">
+		<folder path="/home/hahnmartinlu/temporal-automata/atlingo/benchmarks/instances/elevator"> 
+		</folder> 
+	</benchmark>
+	
+	<project name="temporal-automata" job="pbs-gen">
+		<runtag machine="komputer" benchmark="elevator-benchmark" tag="basic"/>
+	</project>
+
+</runscript>
+

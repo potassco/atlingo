@@ -1,0 +1,12 @@
+[submodule "benchmarks/benchmark-tool"]
+	path = benchmarks/benchmark-tool
+	url = https://github.com/potassco/benchmark-tool
+	branch = master
+[submodule "benchmarks/asprilo/asprilo-abstraction-encodings"]
+	path = benchmarks/asprilo/asprilo-abstraction-encodings
+	url = https://github.com/krr-up/asprilo-abstraction-encodings.git
+	branch = torsten/sandbox
+[submodule "benchmarks/telingo"]
+	path = benchmarks/telingo
+	url = https://github.com/susuhahnml/telingo.git
+	branch = get-program

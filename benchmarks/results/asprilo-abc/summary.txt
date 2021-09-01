@@ -1,0 +1,27 @@
+--------------------
+Summary
+--------------------
+Successful:
+  all-afw__h-13__n-0
+  all-dfa-mso__h-13__n-0
+  all-dfa-mso__h-12__n-0
+  all-dfa-stm__h-14__n-0
+  all-telingo__h-13__n-0
+  all-dfa-stm__h-12__n-0
+  all-telingo__h-14__n-0
+  all-telingo__h-12__n-0
+  all-nc__h-12__n-0
+  all-afw__h-14__n-0
+  all-nc__h-13__n-0
+  all-dfa-mso__h-14__n-0
+  all-dfa-stm__h-13__n-0
+  all-nc__h-14__n-0
+  all-afw__h-12__n-0
+Error:
+  dfa-mso__h-28__n-1
+  dfa-mso__h-24__n-1
+  dfa-mso__h-25__n-1
+  dfa-mso__h-30__n-1
+  dfa-mso__h-26__n-1
+  dfa-mso__h-29__n-1
+  dfa-mso__h-27__n-1

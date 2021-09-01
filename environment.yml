@@ -1,0 +1,22 @@
+name: atlingo
+channels:
+  - potassco
+  - asprilo
+  - defaults
+dependencies:
+  - pip=20.2 
+  - clingo=5.4.0
+  - python=3.7.3
+  - asprilo-visualizer=0.3.0=py_0_gd368aed
+  - pip:
+    # - "--editable=git+https://github.com/susuhahnml/LTLf2DFA.git@sus/command#egg=ltlf2dfa"
+    - networkx
+    - pygraphviz
+    - graphviz
+    - tikzplotlib
+    - dot2tex
+    - pandas
+    - seaborn
+    - pandas_ods_reader
+    - numpy
+    - matplotlib

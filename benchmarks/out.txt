@@ -1,0 +1,1092 @@
+cp -r programs/* benchmark-tool/programs
+cp -r programs/runsolver-3.4.0 benchmark-tool
+cp programs/clingo.py benchmark-tool/src/benchmarktool/resultparser
+rm -rf ./instances/asprilo/*
+mkdir -p ./instances/asprilo/abc/robots
+cp -r ../dom/asprilo-abc/instances/robots/* ./instances/asprilo/abc/robots/
+
+[36m ---------------------------
+ Starting benchmarks for afw__h-24__n-1
+[36m ---------------------------[m
+[33m Creating runscript in 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/runscripts/runscript_asprilo-abc_afw__h-24__n-1.xml [m
+[33m Removing old result directory [m
+[33m Moving to benchmarks-tool directory 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool [m
+[33m Calling ./bgen[m
+[33m Running sh start file 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool/output/asprilo-abc/afw__h-24__n-1/temporal-automata/komputer/start.sh [m
+Submitted batch job 776063
+Submitted batch job 776064
+Submitted batch job 776065
+Submitted batch job 776066
+Submitted batch job 776067
+Submitted batch job 776068
+[35m Waiting for all slurm process to finish...
+[32m Slurm queue is now empty [m
+[33m beval...[m
+[32m Evaluation results saved in  
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/results/asprilo-abc/afw__h-24__n-1/afw__h-24__n-1.beval[m
+[32m Done afw__h-24__n-1[m
+
+[36m ---------------------------
+ Starting benchmarks for afw__h-25__n-1
+[36m ---------------------------[m
+[33m Creating runscript in 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/runscripts/runscript_asprilo-abc_afw__h-25__n-1.xml [m
+[33m Removing old result directory [m
+[33m Moving to benchmarks-tool directory 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool [m
+[33m Calling ./bgen[m
+[33m Running sh start file 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool/output/asprilo-abc/afw__h-25__n-1/temporal-automata/komputer/start.sh [m
+Submitted batch job 776069
+Submitted batch job 776070
+Submitted batch job 776071
+Submitted batch job 776072
+Submitted batch job 776073
+Submitted batch job 776074
+[35m Waiting for all slurm process to finish...
+[32m Slurm queue is now empty [m
+[33m beval...[m
+[32m Evaluation results saved in  
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/results/asprilo-abc/afw__h-25__n-1/afw__h-25__n-1.beval[m
+[32m Done afw__h-25__n-1[m
+
+[36m ---------------------------
+ Starting benchmarks for afw__h-26__n-1
+[36m ---------------------------[m
+[33m Creating runscript in 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/runscripts/runscript_asprilo-abc_afw__h-26__n-1.xml [m
+[33m Removing old result directory [m
+[33m Moving to benchmarks-tool directory 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool [m
+[33m Calling ./bgen[m
+[33m Running sh start file 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool/output/asprilo-abc/afw__h-26__n-1/temporal-automata/komputer/start.sh [m
+Submitted batch job 776075
+Submitted batch job 776076
+Submitted batch job 776077
+Submitted batch job 776078
+Submitted batch job 776079
+Submitted batch job 776080
+[35m Waiting for all slurm process to finish...
+[32m Slurm queue is now empty [m
+[33m beval...[m
+[32m Evaluation results saved in  
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/results/asprilo-abc/afw__h-26__n-1/afw__h-26__n-1.beval[m
+[32m Done afw__h-26__n-1[m
+
+[36m ---------------------------
+ Starting benchmarks for afw__h-27__n-1
+[36m ---------------------------[m
+[33m Creating runscript in 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/runscripts/runscript_asprilo-abc_afw__h-27__n-1.xml [m
+[33m Removing old result directory [m
+[33m Moving to benchmarks-tool directory 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool [m
+[33m Calling ./bgen[m
+[33m Running sh start file 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool/output/asprilo-abc/afw__h-27__n-1/temporal-automata/komputer/start.sh [m
+Submitted batch job 776081
+Submitted batch job 776082
+Submitted batch job 776083
+Submitted batch job 776084
+Submitted batch job 776085
+Submitted batch job 776086
+[35m Waiting for all slurm process to finish...
+[32m Slurm queue is now empty [m
+[33m beval...[m
+[32m Evaluation results saved in  
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/results/asprilo-abc/afw__h-27__n-1/afw__h-27__n-1.beval[m
+[32m Done afw__h-27__n-1[m
+
+[36m ---------------------------
+ Starting benchmarks for afw__h-28__n-1
+[36m ---------------------------[m
+[33m Creating runscript in 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/runscripts/runscript_asprilo-abc_afw__h-28__n-1.xml [m
+[33m Removing old result directory [m
+[33m Moving to benchmarks-tool directory 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool [m
+[33m Calling ./bgen[m
+[33m Running sh start file 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool/output/asprilo-abc/afw__h-28__n-1/temporal-automata/komputer/start.sh [m
+Submitted batch job 776087
+Submitted batch job 776088
+Submitted batch job 776089
+Submitted batch job 776090
+Submitted batch job 776091
+Submitted batch job 776092
+[35m Waiting for all slurm process to finish...
+[32m Slurm queue is now empty [m
+[33m beval...[m
+[32m Evaluation results saved in  
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/results/asprilo-abc/afw__h-28__n-1/afw__h-28__n-1.beval[m
+[32m Done afw__h-28__n-1[m
+
+[36m ---------------------------
+ Starting benchmarks for afw__h-29__n-1
+[36m ---------------------------[m
+[33m Creating runscript in 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/runscripts/runscript_asprilo-abc_afw__h-29__n-1.xml [m
+[33m Removing old result directory [m
+[33m Moving to benchmarks-tool directory 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool [m
+[33m Calling ./bgen[m
+[33m Running sh start file 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool/output/asprilo-abc/afw__h-29__n-1/temporal-automata/komputer/start.sh [m
+Submitted batch job 776093
+Submitted batch job 776094
+Submitted batch job 776095
+Submitted batch job 776096
+Submitted batch job 776097
+Submitted batch job 776098
+[35m Waiting for all slurm process to finish...
+[32m Slurm queue is now empty [m
+[33m beval...[m
+[32m Evaluation results saved in  
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/results/asprilo-abc/afw__h-29__n-1/afw__h-29__n-1.beval[m
+[32m Done afw__h-29__n-1[m
+
+[36m ---------------------------
+ Starting benchmarks for afw__h-30__n-1
+[36m ---------------------------[m
+[33m Creating runscript in 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/runscripts/runscript_asprilo-abc_afw__h-30__n-1.xml [m
+[33m Removing old result directory [m
+[33m Moving to benchmarks-tool directory 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool [m
+[33m Calling ./bgen[m
+[33m Running sh start file 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool/output/asprilo-abc/afw__h-30__n-1/temporal-automata/komputer/start.sh [m
+Submitted batch job 776099
+Submitted batch job 776100
+Submitted batch job 776101
+Submitted batch job 776102
+Submitted batch job 776103
+Submitted batch job 776104
+[35m Waiting for all slurm process to finish...
+[32m Slurm queue is now empty [m
+[33m beval...[m
+[32m Evaluation results saved in  
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/results/asprilo-abc/afw__h-30__n-1/afw__h-30__n-1.beval[m
+[32m Done afw__h-30__n-1[m
+
+[36m ---------------------------
+ Starting benchmarks for telingo__h-24__n-1
+[36m ---------------------------[m
+[33m Creating runscript in 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/runscripts/runscript_asprilo-abc_telingo__h-24__n-1.xml [m
+[33m Removing old result directory [m
+[33m Moving to benchmarks-tool directory 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool [m
+[33m Calling ./bgen[m
+[33m Running sh start file 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool/output/asprilo-abc/telingo__h-24__n-1/temporal-automata/komputer/start.sh [m
+Submitted batch job 776105
+Submitted batch job 776106
+Submitted batch job 776107
+Submitted batch job 776108
+Submitted batch job 776109
+Submitted batch job 776110
+[35m Waiting for all slurm process to finish...
+[32m Slurm queue is now empty [m
+[33m beval...[m
+[32m Evaluation results saved in  
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/results/asprilo-abc/telingo__h-24__n-1/telingo__h-24__n-1.beval[m
+[32m Done telingo__h-24__n-1[m
+
+[36m ---------------------------
+ Starting benchmarks for telingo__h-25__n-1
+[36m ---------------------------[m
+[33m Creating runscript in 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/runscripts/runscript_asprilo-abc_telingo__h-25__n-1.xml [m
+[33m Removing old result directory [m
+[33m Moving to benchmarks-tool directory 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool [m
+[33m Calling ./bgen[m
+[33m Running sh start file 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool/output/asprilo-abc/telingo__h-25__n-1/temporal-automata/komputer/start.sh [m
+Submitted batch job 776111
+Submitted batch job 776112
+Submitted batch job 776113
+Submitted batch job 776114
+Submitted batch job 776115
+Submitted batch job 776116
+[35m Waiting for all slurm process to finish...
+[32m Slurm queue is now empty [m
+[33m beval...[m
+[32m Evaluation results saved in  
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/results/asprilo-abc/telingo__h-25__n-1/telingo__h-25__n-1.beval[m
+[32m Done telingo__h-25__n-1[m
+
+[36m ---------------------------
+ Starting benchmarks for telingo__h-26__n-1
+[36m ---------------------------[m
+[33m Creating runscript in 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/runscripts/runscript_asprilo-abc_telingo__h-26__n-1.xml [m
+[33m Removing old result directory [m
+[33m Moving to benchmarks-tool directory 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool [m
+[33m Calling ./bgen[m
+[33m Running sh start file 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool/output/asprilo-abc/telingo__h-26__n-1/temporal-automata/komputer/start.sh [m
+Submitted batch job 776117
+Submitted batch job 776118
+Submitted batch job 776119
+Submitted batch job 776120
+Submitted batch job 776121
+Submitted batch job 776122
+[35m Waiting for all slurm process to finish...
+[32m Slurm queue is now empty [m
+[33m beval...[m
+[32m Evaluation results saved in  
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/results/asprilo-abc/telingo__h-26__n-1/telingo__h-26__n-1.beval[m
+[32m Done telingo__h-26__n-1[m
+
+[36m ---------------------------
+ Starting benchmarks for telingo__h-27__n-1
+[36m ---------------------------[m
+[33m Creating runscript in 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/runscripts/runscript_asprilo-abc_telingo__h-27__n-1.xml [m
+[33m Removing old result directory [m
+[33m Moving to benchmarks-tool directory 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool [m
+[33m Calling ./bgen[m
+[33m Running sh start file 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool/output/asprilo-abc/telingo__h-27__n-1/temporal-automata/komputer/start.sh [m
+Submitted batch job 776123
+Submitted batch job 776124
+Submitted batch job 776125
+Submitted batch job 776126
+Submitted batch job 776127
+Submitted batch job 776128
+[35m Waiting for all slurm process to finish...
+[32m Slurm queue is now empty [m
+[33m beval...[m
+[32m Evaluation results saved in  
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/results/asprilo-abc/telingo__h-27__n-1/telingo__h-27__n-1.beval[m
+[32m Done telingo__h-27__n-1[m
+
+[36m ---------------------------
+ Starting benchmarks for telingo__h-28__n-1
+[36m ---------------------------[m
+[33m Creating runscript in 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/runscripts/runscript_asprilo-abc_telingo__h-28__n-1.xml [m
+[33m Removing old result directory [m
+[33m Moving to benchmarks-tool directory 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool [m
+[33m Calling ./bgen[m
+[33m Running sh start file 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool/output/asprilo-abc/telingo__h-28__n-1/temporal-automata/komputer/start.sh [m
+Submitted batch job 776129
+Submitted batch job 776130
+Submitted batch job 776131
+Submitted batch job 776132
+Submitted batch job 776133
+Submitted batch job 776134
+[35m Waiting for all slurm process to finish...
+[32m Slurm queue is now empty [m
+[33m beval...[m
+[32m Evaluation results saved in  
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/results/asprilo-abc/telingo__h-28__n-1/telingo__h-28__n-1.beval[m
+[32m Done telingo__h-28__n-1[m
+
+[36m ---------------------------
+ Starting benchmarks for telingo__h-29__n-1
+[36m ---------------------------[m
+[33m Creating runscript in 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/runscripts/runscript_asprilo-abc_telingo__h-29__n-1.xml [m
+[33m Removing old result directory [m
+[33m Moving to benchmarks-tool directory 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool [m
+[33m Calling ./bgen[m
+[33m Running sh start file 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool/output/asprilo-abc/telingo__h-29__n-1/temporal-automata/komputer/start.sh [m
+Submitted batch job 776135
+Submitted batch job 776136
+Submitted batch job 776137
+Submitted batch job 776138
+Submitted batch job 776139
+Submitted batch job 776140
+[35m Waiting for all slurm process to finish...
+[32m Slurm queue is now empty [m
+[33m beval...[m
+[32m Evaluation results saved in  
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/results/asprilo-abc/telingo__h-29__n-1/telingo__h-29__n-1.beval[m
+[32m Done telingo__h-29__n-1[m
+
+[36m ---------------------------
+ Starting benchmarks for telingo__h-30__n-1
+[36m ---------------------------[m
+[33m Creating runscript in 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/runscripts/runscript_asprilo-abc_telingo__h-30__n-1.xml [m
+[33m Removing old result directory [m
+[33m Moving to benchmarks-tool directory 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool [m
+[33m Calling ./bgen[m
+[33m Running sh start file 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool/output/asprilo-abc/telingo__h-30__n-1/temporal-automata/komputer/start.sh [m
+Submitted batch job 776141
+Submitted batch job 776142
+Submitted batch job 776143
+Submitted batch job 776144
+Submitted batch job 776145
+Submitted batch job 776146
+[35m Waiting for all slurm process to finish...
+[32m Slurm queue is now empty [m
+[33m beval...[m
+[32m Evaluation results saved in  
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/results/asprilo-abc/telingo__h-30__n-1/telingo__h-30__n-1.beval[m
+[32m Done telingo__h-30__n-1[m
+
+[36m ---------------------------
+ Starting benchmarks for dfa-mso__h-24__n-1
+[36m ---------------------------[m
+[33m Creating runscript in 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/runscripts/runscript_asprilo-abc_dfa-mso__h-24__n-1.xml [m
+[33m Removing old result directory [m
+[33m Moving to benchmarks-tool directory 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool [m
+[33m Calling ./bgen[m
+[33m Running sh start file 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool/output/asprilo-abc/dfa-mso__h-24__n-1/temporal-automata/komputer/start.sh [m
+Submitted batch job 776147
+Submitted batch job 776148
+Submitted batch job 776149
+Submitted batch job 776150
+Submitted batch job 776151
+Submitted batch job 776152
+[35m Waiting for all slurm process to finish...
+[32m Slurm queue is now empty [m
+[33m beval...[m
+[31m Found error inside output of runsolver
+output/asprilo-abc/dfa-mso__h-24__n-1/temporal-automata/komputer/results/asprilo-abc-benchmark/general_compute-1-d3/robots/x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001.lp/run1/runsolver.solver
+-q
+( cd ../../../../../../../../../../../ ; cd ../../ ; make translate-run DOM=asprilo-abc APP=dfa-mso INSTANCE=benchmarks/benchmark-tool/../instances/asprilo/abc/robots/x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001.lp CONSTRAINT=d3 HORIZON=24 MODELS=1 RUN_FILES='-q  ' FORCE_TRANSLATE=0)
+[33mMaking translation since file is missing[m
+make[1]: Entering directory '/home/hahnmartinlu/temporal-automata/atlingo'
+[34mTranslating APP=dfa-mso DOM=asprilo-abc CONSTRAINT=d3INSTANCE=x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001 HORIZON=24 [m
+make[2]: Entering directory '/home/hahnmartinlu/temporal-automata/atlingo'
+python ./scripts/translater.py --input=ldlf --app=dfa-mso --out-file=./outputs/asprilo-abc/dfa-mso/d3/x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001/dfa-mso_automata.lp --in-files='./dom/asprilo-abc/temporal_constraints/d3.lp dom/asprilo/asprilo-abstraction-encodings/asprilo-encodings/input.lp  benchmarks/benchmark-tool/../instances/asprilo/abc/robots/x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001.lp' 
+Error in mona: 
+BDD too large (>16777216 nodes)
+Traceback (most recent call last):
+  File "./scripts/translater.py", line 49, in <module>
+    automaton = f.dfa(translation=args.app.split('-')[1],n_old_states=n_old_states, state_prefix=f"a{i}_", id2prop=id2prop)
+  File "/home/hahnmartinlu/temporal-automata/atlingo/pystructures/ldlf.py", line 254, in dfa
+    return NFA.from_mona(mona_dfa, n_old_states=n_old_states, state_prefix=state_prefix, id2prop=id2prop, mona2prop=mona2prop)
+  File "/home/hahnmartinlu/temporal-automata/atlingo/pystructures/automata.py", line 252, in from_mona
+    raise TimeoutError(mona)
+TimeoutError: BDD too large (>16777216 nodes)
+makefile:209: recipe for target 'translate-dfa-mso' failed
+make[2]: *** [translate-dfa-mso] Error 1
+make[2]: Leaving directory '/home/hahnmartinlu/temporal-automata/atlingo'
+makefile:98: recipe for target 'translate' failed
+make[1]: *** [translate] Error 2
+make[1]: Leaving directory '/home/hahnmartinlu/temporal-automata/atlingo'
+makefile:129: recipe for target 'translate-run' failed
+make: *** [translate-run] Error 2
+[m
+[32m Evaluation results saved in  
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/results/asprilo-abc/dfa-mso__h-24__n-1/dfa-mso__h-24__n-1.beval[m
+[32m Done dfa-mso__h-24__n-1[m
+
+[36m ---------------------------
+ Starting benchmarks for dfa-mso__h-25__n-1
+[36m ---------------------------[m
+[33m Creating runscript in 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/runscripts/runscript_asprilo-abc_dfa-mso__h-25__n-1.xml [m
+[33m Removing old result directory [m
+[33m Moving to benchmarks-tool directory 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool [m
+[33m Calling ./bgen[m
+[33m Running sh start file 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool/output/asprilo-abc/dfa-mso__h-25__n-1/temporal-automata/komputer/start.sh [m
+Submitted batch job 776153
+Submitted batch job 776154
+Submitted batch job 776155
+Submitted batch job 776156
+Submitted batch job 776157
+Submitted batch job 776158
+[35m Waiting for all slurm process to finish...
+[32m Slurm queue is now empty [m
+[33m beval...[m
+[31m Found error inside output of runsolver
+output/asprilo-abc/dfa-mso__h-25__n-1/temporal-automata/komputer/results/asprilo-abc-benchmark/general_compute-1-d3/robots/x7_y7_n49_r2_s4_ps2_pr4_u4_o4_l4_N001.lp/run1/runsolver.solver
+-q
+( cd ../../../../../../../../../../../ ; cd ../../ ; make translate-run DOM=asprilo-abc APP=dfa-mso INSTANCE=benchmarks/benchmark-tool/../instances/asprilo/abc/robots/x7_y7_n49_r2_s4_ps2_pr4_u4_o4_l4_N001.lp CONSTRAINT=d3 HORIZON=25 MODELS=1 RUN_FILES='-q  ' FORCE_TRANSLATE=0)
+[33mMaking translation since file is missing[m
+make[1]: Entering directory '/home/hahnmartinlu/temporal-automata/atlingo'
+[34mTranslating APP=dfa-mso DOM=asprilo-abc CONSTRAINT=d3INSTANCE=x7_y7_n49_r2_s4_ps2_pr4_u4_o4_l4_N001 HORIZON=25 [m
+make[2]: Entering directory '/home/hahnmartinlu/temporal-automata/atlingo'
+python ./scripts/translater.py --input=ldlf --app=dfa-mso --out-file=./outputs/asprilo-abc/dfa-mso/d3/x7_y7_n49_r2_s4_ps2_pr4_u4_o4_l4_N001/dfa-mso_automata.lp --in-files='./dom/asprilo-abc/temporal_constraints/d3.lp dom/asprilo/asprilo-abstraction-encodings/asprilo-encodings/input.lp  benchmarks/benchmark-tool/../instances/asprilo/abc/robots/x7_y7_n49_r2_s4_ps2_pr4_u4_o4_l4_N001.lp' 
+Error in mona: 
+BDD too large (>16777216 nodes)
+Traceback (most recent call last):
+  File "./scripts/translater.py", line 49, in <module>
+    automaton = f.dfa(translation=args.app.split('-')[1],n_old_states=n_old_states, state_prefix=f"a{i}_", id2prop=id2prop)
+  File "/home/hahnmartinlu/temporal-automata/atlingo/pystructures/ldlf.py", line 254, in dfa
+    return NFA.from_mona(mona_dfa, n_old_states=n_old_states, state_prefix=state_prefix, id2prop=id2prop, mona2prop=mona2prop)
+  File "/home/hahnmartinlu/temporal-automata/atlingo/pystructures/automata.py", line 252, in from_mona
+    raise TimeoutError(mona)
+TimeoutError: BDD too large (>16777216 nodes)
+makefile:209: recipe for target 'translate-dfa-mso' failed
+make[2]: *** [translate-dfa-mso] Error 1
+make[2]: Leaving directory '/home/hahnmartinlu/temporal-automata/atlingo'
+makefile:98: recipe for target 'translate' failed
+make[1]: *** [translate] Error 2
+make[1]: Leaving directory '/home/hahnmartinlu/temporal-automata/atlingo'
+makefile:129: recipe for target 'translate-run' failed
+make: *** [translate-run] Error 2
+[m
+[32m Evaluation results saved in  
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/results/asprilo-abc/dfa-mso__h-25__n-1/dfa-mso__h-25__n-1.beval[m
+[32m Done dfa-mso__h-25__n-1[m
+
+[36m ---------------------------
+ Starting benchmarks for dfa-mso__h-26__n-1
+[36m ---------------------------[m
+[33m Creating runscript in 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/runscripts/runscript_asprilo-abc_dfa-mso__h-26__n-1.xml [m
+[33m Removing old result directory [m
+[33m Moving to benchmarks-tool directory 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool [m
+[33m Calling ./bgen[m
+[33m Running sh start file 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool/output/asprilo-abc/dfa-mso__h-26__n-1/temporal-automata/komputer/start.sh [m
+Submitted batch job 776159
+Submitted batch job 776160
+Submitted batch job 776161
+Submitted batch job 776162
+Submitted batch job 776163
+Submitted batch job 776164
+[35m Waiting for all slurm process to finish...
+[32m Slurm queue is now empty [m
+[33m beval...[m
+[31m Found error inside output of runsolver
+output/asprilo-abc/dfa-mso__h-26__n-1/temporal-automata/komputer/results/asprilo-abc-benchmark/general_compute-1-d3/robots/x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001.lp/run1/runsolver.solver
+-q
+( cd ../../../../../../../../../../../ ; cd ../../ ; make translate-run DOM=asprilo-abc APP=dfa-mso INSTANCE=benchmarks/benchmark-tool/../instances/asprilo/abc/robots/x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001.lp CONSTRAINT=d3 HORIZON=26 MODELS=1 RUN_FILES='-q  ' FORCE_TRANSLATE=0)
+[33mMaking translation since file is missing[m
+make[1]: Entering directory '/home/hahnmartinlu/temporal-automata/atlingo'
+[34mTranslating APP=dfa-mso DOM=asprilo-abc CONSTRAINT=d3INSTANCE=x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001 HORIZON=26 [m
+make[2]: Entering directory '/home/hahnmartinlu/temporal-automata/atlingo'
+python ./scripts/translater.py --input=ldlf --app=dfa-mso --out-file=./outputs/asprilo-abc/dfa-mso/d3/x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001/dfa-mso_automata.lp --in-files='./dom/asprilo-abc/temporal_constraints/d3.lp dom/asprilo/asprilo-abstraction-encodings/asprilo-encodings/input.lp  benchmarks/benchmark-tool/../instances/asprilo/abc/robots/x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001.lp' 
+Error in mona: 
+BDD too large (>16777216 nodes)
+Traceback (most recent call last):
+  File "./scripts/translater.py", line 49, in <module>
+    automaton = f.dfa(translation=args.app.split('-')[1],n_old_states=n_old_states, state_prefix=f"a{i}_", id2prop=id2prop)
+  File "/home/hahnmartinlu/temporal-automata/atlingo/pystructures/ldlf.py", line 254, in dfa
+    return NFA.from_mona(mona_dfa, n_old_states=n_old_states, state_prefix=state_prefix, id2prop=id2prop, mona2prop=mona2prop)
+  File "/home/hahnmartinlu/temporal-automata/atlingo/pystructures/automata.py", line 252, in from_mona
+    raise TimeoutError(mona)
+TimeoutError: BDD too large (>16777216 nodes)
+makefile:209: recipe for target 'translate-dfa-mso' failed
+make[2]: *** [translate-dfa-mso] Error 1
+make[2]: Leaving directory '/home/hahnmartinlu/temporal-automata/atlingo'
+makefile:98: recipe for target 'translate' failed
+make[1]: *** [translate] Error 2
+make[1]: Leaving directory '/home/hahnmartinlu/temporal-automata/atlingo'
+makefile:129: recipe for target 'translate-run' failed
+make: *** [translate-run] Error 2
+[m
+[32m Evaluation results saved in  
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/results/asprilo-abc/dfa-mso__h-26__n-1/dfa-mso__h-26__n-1.beval[m
+[32m Done dfa-mso__h-26__n-1[m
+
+[36m ---------------------------
+ Starting benchmarks for dfa-mso__h-27__n-1
+[36m ---------------------------[m
+[33m Creating runscript in 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/runscripts/runscript_asprilo-abc_dfa-mso__h-27__n-1.xml [m
+[33m Removing old result directory [m
+[33m Moving to benchmarks-tool directory 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool [m
+[33m Calling ./bgen[m
+[33m Running sh start file 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool/output/asprilo-abc/dfa-mso__h-27__n-1/temporal-automata/komputer/start.sh [m
+Submitted batch job 776165
+Submitted batch job 776166
+Submitted batch job 776167
+Submitted batch job 776168
+Submitted batch job 776169
+Submitted batch job 776170
+[35m Waiting for all slurm process to finish...
+[32m Slurm queue is now empty [m
+[33m beval...[m
+[31m Found error inside output of runsolver
+output/asprilo-abc/dfa-mso__h-27__n-1/temporal-automata/komputer/results/asprilo-abc-benchmark/general_compute-1-d3/robots/x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001.lp/run1/runsolver.solver
+-q
+( cd ../../../../../../../../../../../ ; cd ../../ ; make translate-run DOM=asprilo-abc APP=dfa-mso INSTANCE=benchmarks/benchmark-tool/../instances/asprilo/abc/robots/x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001.lp CONSTRAINT=d3 HORIZON=27 MODELS=1 RUN_FILES='-q  ' FORCE_TRANSLATE=0)
+[33mMaking translation since file is missing[m
+make[1]: Entering directory '/home/hahnmartinlu/temporal-automata/atlingo'
+[34mTranslating APP=dfa-mso DOM=asprilo-abc CONSTRAINT=d3INSTANCE=x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001 HORIZON=27 [m
+make[2]: Entering directory '/home/hahnmartinlu/temporal-automata/atlingo'
+python ./scripts/translater.py --input=ldlf --app=dfa-mso --out-file=./outputs/asprilo-abc/dfa-mso/d3/x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001/dfa-mso_automata.lp --in-files='./dom/asprilo-abc/temporal_constraints/d3.lp dom/asprilo/asprilo-abstraction-encodings/asprilo-encodings/input.lp  benchmarks/benchmark-tool/../instances/asprilo/abc/robots/x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001.lp' 
+Error in mona: 
+BDD too large (>16777216 nodes)
+Traceback (most recent call last):
+  File "./scripts/translater.py", line 49, in <module>
+    automaton = f.dfa(translation=args.app.split('-')[1],n_old_states=n_old_states, state_prefix=f"a{i}_", id2prop=id2prop)
+  File "/home/hahnmartinlu/temporal-automata/atlingo/pystructures/ldlf.py", line 254, in dfa
+    return NFA.from_mona(mona_dfa, n_old_states=n_old_states, state_prefix=state_prefix, id2prop=id2prop, mona2prop=mona2prop)
+  File "/home/hahnmartinlu/temporal-automata/atlingo/pystructures/automata.py", line 252, in from_mona
+    raise TimeoutError(mona)
+TimeoutError: BDD too large (>16777216 nodes)
+makefile:209: recipe for target 'translate-dfa-mso' failed
+make[2]: *** [translate-dfa-mso] Error 1
+make[2]: Leaving directory '/home/hahnmartinlu/temporal-automata/atlingo'
+makefile:98: recipe for target 'translate' failed
+make[1]: *** [translate] Error 2
+make[1]: Leaving directory '/home/hahnmartinlu/temporal-automata/atlingo'
+makefile:129: recipe for target 'translate-run' failed
+make: *** [translate-run] Error 2
+[m
+[32m Evaluation results saved in  
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/results/asprilo-abc/dfa-mso__h-27__n-1/dfa-mso__h-27__n-1.beval[m
+[32m Done dfa-mso__h-27__n-1[m
+
+[36m ---------------------------
+ Starting benchmarks for dfa-mso__h-28__n-1
+[36m ---------------------------[m
+[33m Creating runscript in 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/runscripts/runscript_asprilo-abc_dfa-mso__h-28__n-1.xml [m
+[33m Removing old result directory [m
+[33m Moving to benchmarks-tool directory 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool [m
+[33m Calling ./bgen[m
+[33m Running sh start file 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool/output/asprilo-abc/dfa-mso__h-28__n-1/temporal-automata/komputer/start.sh [m
+Submitted batch job 776171
+Submitted batch job 776172
+Submitted batch job 776173
+Submitted batch job 776174
+Submitted batch job 776175
+Submitted batch job 776176
+[35m Waiting for all slurm process to finish...
+[32m Slurm queue is now empty [m
+[33m beval...[m
+[31m Found error inside output of runsolver
+output/asprilo-abc/dfa-mso__h-28__n-1/temporal-automata/komputer/results/asprilo-abc-benchmark/general_compute-1-d3/robots/x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001.lp/run1/runsolver.solver
+-q
+( cd ../../../../../../../../../../../ ; cd ../../ ; make translate-run DOM=asprilo-abc APP=dfa-mso INSTANCE=benchmarks/benchmark-tool/../instances/asprilo/abc/robots/x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001.lp CONSTRAINT=d3 HORIZON=28 MODELS=1 RUN_FILES='-q  ' FORCE_TRANSLATE=0)
+[33mMaking translation since file is missing[m
+make[1]: Entering directory '/home/hahnmartinlu/temporal-automata/atlingo'
+[34mTranslating APP=dfa-mso DOM=asprilo-abc CONSTRAINT=d3INSTANCE=x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001 HORIZON=28 [m
+make[2]: Entering directory '/home/hahnmartinlu/temporal-automata/atlingo'
+python ./scripts/translater.py --input=ldlf --app=dfa-mso --out-file=./outputs/asprilo-abc/dfa-mso/d3/x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001/dfa-mso_automata.lp --in-files='./dom/asprilo-abc/temporal_constraints/d3.lp dom/asprilo/asprilo-abstraction-encodings/asprilo-encodings/input.lp  benchmarks/benchmark-tool/../instances/asprilo/abc/robots/x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001.lp' 
+Error in mona: 
+BDD too large (>16777216 nodes)
+Traceback (most recent call last):
+  File "./scripts/translater.py", line 49, in <module>
+    automaton = f.dfa(translation=args.app.split('-')[1],n_old_states=n_old_states, state_prefix=f"a{i}_", id2prop=id2prop)
+  File "/home/hahnmartinlu/temporal-automata/atlingo/pystructures/ldlf.py", line 254, in dfa
+    return NFA.from_mona(mona_dfa, n_old_states=n_old_states, state_prefix=state_prefix, id2prop=id2prop, mona2prop=mona2prop)
+  File "/home/hahnmartinlu/temporal-automata/atlingo/pystructures/automata.py", line 252, in from_mona
+    raise TimeoutError(mona)
+TimeoutError: BDD too large (>16777216 nodes)
+makefile:209: recipe for target 'translate-dfa-mso' failed
+make[2]: *** [translate-dfa-mso] Error 1
+make[2]: Leaving directory '/home/hahnmartinlu/temporal-automata/atlingo'
+makefile:98: recipe for target 'translate' failed
+make[1]: *** [translate] Error 2
+make[1]: Leaving directory '/home/hahnmartinlu/temporal-automata/atlingo'
+makefile:129: recipe for target 'translate-run' failed
+make: *** [translate-run] Error 2
+[m
+[32m Evaluation results saved in  
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/results/asprilo-abc/dfa-mso__h-28__n-1/dfa-mso__h-28__n-1.beval[m
+[32m Done dfa-mso__h-28__n-1[m
+
+[36m ---------------------------
+ Starting benchmarks for dfa-mso__h-29__n-1
+[36m ---------------------------[m
+[33m Creating runscript in 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/runscripts/runscript_asprilo-abc_dfa-mso__h-29__n-1.xml [m
+[33m Removing old result directory [m
+[33m Moving to benchmarks-tool directory 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool [m
+[33m Calling ./bgen[m
+[33m Running sh start file 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool/output/asprilo-abc/dfa-mso__h-29__n-1/temporal-automata/komputer/start.sh [m
+Submitted batch job 776177
+Submitted batch job 776178
+Submitted batch job 776179
+Submitted batch job 776180
+Submitted batch job 776181
+Submitted batch job 776182
+[35m Waiting for all slurm process to finish...
+[32m Slurm queue is now empty [m
+[33m beval...[m
+[31m Found error inside output of runsolver
+output/asprilo-abc/dfa-mso__h-29__n-1/temporal-automata/komputer/results/asprilo-abc-benchmark/general_compute-1-d3/robots/x7_y7_n49_r2_s4_ps2_pr4_u4_o4_l4_N001.lp/run1/runsolver.solver
+-q
+( cd ../../../../../../../../../../../ ; cd ../../ ; make translate-run DOM=asprilo-abc APP=dfa-mso INSTANCE=benchmarks/benchmark-tool/../instances/asprilo/abc/robots/x7_y7_n49_r2_s4_ps2_pr4_u4_o4_l4_N001.lp CONSTRAINT=d3 HORIZON=29 MODELS=1 RUN_FILES='-q  ' FORCE_TRANSLATE=0)
+[33mMaking translation since file is missing[m
+make[1]: Entering directory '/home/hahnmartinlu/temporal-automata/atlingo'
+[34mTranslating APP=dfa-mso DOM=asprilo-abc CONSTRAINT=d3INSTANCE=x7_y7_n49_r2_s4_ps2_pr4_u4_o4_l4_N001 HORIZON=29 [m
+make[2]: Entering directory '/home/hahnmartinlu/temporal-automata/atlingo'
+python ./scripts/translater.py --input=ldlf --app=dfa-mso --out-file=./outputs/asprilo-abc/dfa-mso/d3/x7_y7_n49_r2_s4_ps2_pr4_u4_o4_l4_N001/dfa-mso_automata.lp --in-files='./dom/asprilo-abc/temporal_constraints/d3.lp dom/asprilo/asprilo-abstraction-encodings/asprilo-encodings/input.lp  benchmarks/benchmark-tool/../instances/asprilo/abc/robots/x7_y7_n49_r2_s4_ps2_pr4_u4_o4_l4_N001.lp' 
+Error in mona: 
+BDD too large (>16777216 nodes)
+Traceback (most recent call last):
+  File "./scripts/translater.py", line 49, in <module>
+    automaton = f.dfa(translation=args.app.split('-')[1],n_old_states=n_old_states, state_prefix=f"a{i}_", id2prop=id2prop)
+  File "/home/hahnmartinlu/temporal-automata/atlingo/pystructures/ldlf.py", line 254, in dfa
+    return NFA.from_mona(mona_dfa, n_old_states=n_old_states, state_prefix=state_prefix, id2prop=id2prop, mona2prop=mona2prop)
+  File "/home/hahnmartinlu/temporal-automata/atlingo/pystructures/automata.py", line 252, in from_mona
+    raise TimeoutError(mona)
+TimeoutError: BDD too large (>16777216 nodes)
+makefile:209: recipe for target 'translate-dfa-mso' failed
+make[2]: *** [translate-dfa-mso] Error 1
+make[2]: Leaving directory '/home/hahnmartinlu/temporal-automata/atlingo'
+makefile:98: recipe for target 'translate' failed
+make[1]: *** [translate] Error 2
+make[1]: Leaving directory '/home/hahnmartinlu/temporal-automata/atlingo'
+makefile:129: recipe for target 'translate-run' failed
+make: *** [translate-run] Error 2
+[m
+[32m Evaluation results saved in  
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/results/asprilo-abc/dfa-mso__h-29__n-1/dfa-mso__h-29__n-1.beval[m
+[32m Done dfa-mso__h-29__n-1[m
+
+[36m ---------------------------
+ Starting benchmarks for dfa-mso__h-30__n-1
+[36m ---------------------------[m
+[33m Creating runscript in 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/runscripts/runscript_asprilo-abc_dfa-mso__h-30__n-1.xml [m
+[33m Removing old result directory [m
+[33m Moving to benchmarks-tool directory 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool [m
+[33m Calling ./bgen[m
+[33m Running sh start file 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool/output/asprilo-abc/dfa-mso__h-30__n-1/temporal-automata/komputer/start.sh [m
+Submitted batch job 776183
+Submitted batch job 776184
+Submitted batch job 776185
+Submitted batch job 776186
+Submitted batch job 776187
+Submitted batch job 776188
+[35m Waiting for all slurm process to finish...
+[32m Slurm queue is now empty [m
+[33m beval...[m
+[31m Found error inside output of runsolver
+output/asprilo-abc/dfa-mso__h-30__n-1/temporal-automata/komputer/results/asprilo-abc-benchmark/general_compute-1-d3/robots/x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001.lp/run1/runsolver.solver
+-q
+( cd ../../../../../../../../../../../ ; cd ../../ ; make translate-run DOM=asprilo-abc APP=dfa-mso INSTANCE=benchmarks/benchmark-tool/../instances/asprilo/abc/robots/x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001.lp CONSTRAINT=d3 HORIZON=30 MODELS=1 RUN_FILES='-q  ' FORCE_TRANSLATE=0)
+[33mMaking translation since file is missing[m
+make[1]: Entering directory '/home/hahnmartinlu/temporal-automata/atlingo'
+[34mTranslating APP=dfa-mso DOM=asprilo-abc CONSTRAINT=d3INSTANCE=x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001 HORIZON=30 [m
+make[2]: Entering directory '/home/hahnmartinlu/temporal-automata/atlingo'
+python ./scripts/translater.py --input=ldlf --app=dfa-mso --out-file=./outputs/asprilo-abc/dfa-mso/d3/x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001/dfa-mso_automata.lp --in-files='./dom/asprilo-abc/temporal_constraints/d3.lp dom/asprilo/asprilo-abstraction-encodings/asprilo-encodings/input.lp  benchmarks/benchmark-tool/../instances/asprilo/abc/robots/x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001.lp' 
+Error in mona: 
+BDD too large (>16777216 nodes)
+Traceback (most recent call last):
+  File "./scripts/translater.py", line 49, in <module>
+    automaton = f.dfa(translation=args.app.split('-')[1],n_old_states=n_old_states, state_prefix=f"a{i}_", id2prop=id2prop)
+  File "/home/hahnmartinlu/temporal-automata/atlingo/pystructures/ldlf.py", line 254, in dfa
+    return NFA.from_mona(mona_dfa, n_old_states=n_old_states, state_prefix=state_prefix, id2prop=id2prop, mona2prop=mona2prop)
+  File "/home/hahnmartinlu/temporal-automata/atlingo/pystructures/automata.py", line 252, in from_mona
+    raise TimeoutError(mona)
+TimeoutError: BDD too large (>16777216 nodes)
+makefile:209: recipe for target 'translate-dfa-mso' failed
+make[2]: *** [translate-dfa-mso] Error 1
+make[2]: Leaving directory '/home/hahnmartinlu/temporal-automata/atlingo'
+makefile:98: recipe for target 'translate' failed
+make[1]: *** [translate] Error 2
+make[1]: Leaving directory '/home/hahnmartinlu/temporal-automata/atlingo'
+makefile:129: recipe for target 'translate-run' failed
+make: *** [translate-run] Error 2
+[m
+[32m Evaluation results saved in  
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/results/asprilo-abc/dfa-mso__h-30__n-1/dfa-mso__h-30__n-1.beval[m
+[32m Done dfa-mso__h-30__n-1[m
+
+[36m ---------------------------
+ Starting benchmarks for dfa-stm__h-24__n-1
+[36m ---------------------------[m
+[33m Creating runscript in 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/runscripts/runscript_asprilo-abc_dfa-stm__h-24__n-1.xml [m
+[33m Removing old result directory [m
+[33m Moving to benchmarks-tool directory 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool [m
+[33m Calling ./bgen[m
+[33m Running sh start file 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool/output/asprilo-abc/dfa-stm__h-24__n-1/temporal-automata/komputer/start.sh [m
+Submitted batch job 776189
+Submitted batch job 776190
+Submitted batch job 776191
+Submitted batch job 776192
+Submitted batch job 776193
+Submitted batch job 776194
+[35m Waiting for all slurm process to finish...
+[32m Slurm queue is now empty [m
+[33m beval...[m
+[32m Evaluation results saved in  
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/results/asprilo-abc/dfa-stm__h-24__n-1/dfa-stm__h-24__n-1.beval[m
+[32m Done dfa-stm__h-24__n-1[m
+
+[36m ---------------------------
+ Starting benchmarks for dfa-stm__h-25__n-1
+[36m ---------------------------[m
+[33m Creating runscript in 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/runscripts/runscript_asprilo-abc_dfa-stm__h-25__n-1.xml [m
+[33m Removing old result directory [m
+[33m Moving to benchmarks-tool directory 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool [m
+[33m Calling ./bgen[m
+[33m Running sh start file 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool/output/asprilo-abc/dfa-stm__h-25__n-1/temporal-automata/komputer/start.sh [m
+Submitted batch job 776195
+Submitted batch job 776196
+Submitted batch job 776197
+Submitted batch job 776198
+Submitted batch job 776199
+Submitted batch job 776200
+[35m Waiting for all slurm process to finish...
+[32m Slurm queue is now empty [m
+[33m beval...[m
+[32m Evaluation results saved in  
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/results/asprilo-abc/dfa-stm__h-25__n-1/dfa-stm__h-25__n-1.beval[m
+[32m Done dfa-stm__h-25__n-1[m
+
+[36m ---------------------------
+ Starting benchmarks for dfa-stm__h-26__n-1
+[36m ---------------------------[m
+[33m Creating runscript in 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/runscripts/runscript_asprilo-abc_dfa-stm__h-26__n-1.xml [m
+[33m Removing old result directory [m
+[33m Moving to benchmarks-tool directory 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool [m
+[33m Calling ./bgen[m
+[33m Running sh start file 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool/output/asprilo-abc/dfa-stm__h-26__n-1/temporal-automata/komputer/start.sh [m
+Submitted batch job 776201
+Submitted batch job 776202
+Submitted batch job 776203
+Submitted batch job 776204
+Submitted batch job 776205
+Submitted batch job 776206
+[35m Waiting for all slurm process to finish...
+[32m Slurm queue is now empty [m
+[33m beval...[m
+[32m Evaluation results saved in  
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/results/asprilo-abc/dfa-stm__h-26__n-1/dfa-stm__h-26__n-1.beval[m
+[32m Done dfa-stm__h-26__n-1[m
+
+[36m ---------------------------
+ Starting benchmarks for dfa-stm__h-27__n-1
+[36m ---------------------------[m
+[33m Creating runscript in 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/runscripts/runscript_asprilo-abc_dfa-stm__h-27__n-1.xml [m
+[33m Removing old result directory [m
+[33m Moving to benchmarks-tool directory 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool [m
+[33m Calling ./bgen[m
+[33m Running sh start file 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool/output/asprilo-abc/dfa-stm__h-27__n-1/temporal-automata/komputer/start.sh [m
+Submitted batch job 776207
+Submitted batch job 776208
+Submitted batch job 776209
+Submitted batch job 776210
+Submitted batch job 776211
+Submitted batch job 776212
+[35m Waiting for all slurm process to finish...
+[32m Slurm queue is now empty [m
+[33m beval...[m
+[32m Evaluation results saved in  
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/results/asprilo-abc/dfa-stm__h-27__n-1/dfa-stm__h-27__n-1.beval[m
+[32m Done dfa-stm__h-27__n-1[m
+
+[36m ---------------------------
+ Starting benchmarks for dfa-stm__h-28__n-1
+[36m ---------------------------[m
+[33m Creating runscript in 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/runscripts/runscript_asprilo-abc_dfa-stm__h-28__n-1.xml [m
+[33m Removing old result directory [m
+[33m Moving to benchmarks-tool directory 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool [m
+[33m Calling ./bgen[m
+[33m Running sh start file 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool/output/asprilo-abc/dfa-stm__h-28__n-1/temporal-automata/komputer/start.sh [m
+Submitted batch job 776213
+Submitted batch job 776214
+Submitted batch job 776215
+Submitted batch job 776216
+Submitted batch job 776217
+Submitted batch job 776218
+[35m Waiting for all slurm process to finish...
+[32m Slurm queue is now empty [m
+[33m beval...[m
+[32m Evaluation results saved in  
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/results/asprilo-abc/dfa-stm__h-28__n-1/dfa-stm__h-28__n-1.beval[m
+[32m Done dfa-stm__h-28__n-1[m
+
+[36m ---------------------------
+ Starting benchmarks for dfa-stm__h-29__n-1
+[36m ---------------------------[m
+[33m Creating runscript in 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/runscripts/runscript_asprilo-abc_dfa-stm__h-29__n-1.xml [m
+[33m Removing old result directory [m
+[33m Moving to benchmarks-tool directory 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool [m
+[33m Calling ./bgen[m
+[33m Running sh start file 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool/output/asprilo-abc/dfa-stm__h-29__n-1/temporal-automata/komputer/start.sh [m
+Submitted batch job 776219
+Submitted batch job 776220
+Submitted batch job 776221
+Submitted batch job 776222
+Submitted batch job 776223
+Submitted batch job 776224
+[35m Waiting for all slurm process to finish...
+[32m Slurm queue is now empty [m
+[35m TIMEOUT: ./output/asprilo-abc/dfa-stm__h-29__n-1/temporal-automata/komputer/results/asprilo-abc-benchmark/general_compute-1-d3/robots/x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001.lp/run1/runsolver.solver
+[33m beval...[m
+[32m Evaluation results saved in  
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/results/asprilo-abc/dfa-stm__h-29__n-1/dfa-stm__h-29__n-1.beval[m
+[32m Done dfa-stm__h-29__n-1[m
+
+[36m ---------------------------
+ Starting benchmarks for dfa-stm__h-30__n-1
+[36m ---------------------------[m
+[33m Creating runscript in 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/runscripts/runscript_asprilo-abc_dfa-stm__h-30__n-1.xml [m
+[33m Removing old result directory [m
+[33m Moving to benchmarks-tool directory 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool [m
+[33m Calling ./bgen[m
+[33m Running sh start file 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool/output/asprilo-abc/dfa-stm__h-30__n-1/temporal-automata/komputer/start.sh [m
+Submitted batch job 776225
+Submitted batch job 776226
+Submitted batch job 776227
+Submitted batch job 776228
+Submitted batch job 776229
+Submitted batch job 776230
+[35m Waiting for all slurm process to finish...
+[32m Slurm queue is now empty [m
+[35m TIMEOUT: ./output/asprilo-abc/dfa-stm__h-30__n-1/temporal-automata/komputer/results/asprilo-abc-benchmark/general_compute-1-d3/robots/x7_y7_n49_r2_s4_ps2_pr4_u4_o4_l4_N001.lp/run1/runsolver.solver
+[35m TIMEOUT: ./output/asprilo-abc/dfa-stm__h-30__n-1/temporal-automata/komputer/results/asprilo-abc-benchmark/general_compute-1-d3/robots/x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001.lp/run1/runsolver.solver
+[33m beval...[m
+[32m Evaluation results saved in  
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/results/asprilo-abc/dfa-stm__h-30__n-1/dfa-stm__h-30__n-1.beval[m
+[32m Done dfa-stm__h-30__n-1[m
+
+[36m ---------------------------
+ Starting benchmarks for nc__h-24__n-1
+[36m ---------------------------[m
+[33m Creating runscript in 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/runscripts/runscript_asprilo-abc_nc__h-24__n-1.xml [m
+[33m Removing old result directory [m
+[33m Moving to benchmarks-tool directory 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool [m
+[33m Calling ./bgen[m
+[33m Running sh start file 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool/output/asprilo-abc/nc__h-24__n-1/temporal-automata/komputer/start.sh [m
+Submitted batch job 776231
+Submitted batch job 776232
+Submitted batch job 776233
+Submitted batch job 776234
+Submitted batch job 776235
+Submitted batch job 776236
+[35m Waiting for all slurm process to finish...
+[32m Slurm queue is now empty [m
+[33m beval...[m
+[32m Evaluation results saved in  
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/results/asprilo-abc/nc__h-24__n-1/nc__h-24__n-1.beval[m
+[32m Done nc__h-24__n-1[m
+
+[36m ---------------------------
+ Starting benchmarks for nc__h-25__n-1
+[36m ---------------------------[m
+[33m Creating runscript in 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/runscripts/runscript_asprilo-abc_nc__h-25__n-1.xml [m
+[33m Removing old result directory [m
+[33m Moving to benchmarks-tool directory 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool [m
+[33m Calling ./bgen[m
+[33m Running sh start file 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool/output/asprilo-abc/nc__h-25__n-1/temporal-automata/komputer/start.sh [m
+Submitted batch job 776237
+Submitted batch job 776238
+Submitted batch job 776239
+Submitted batch job 776240
+Submitted batch job 776241
+Submitted batch job 776242
+[35m Waiting for all slurm process to finish...
+[32m Slurm queue is now empty [m
+[33m beval...[m
+[32m Evaluation results saved in  
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/results/asprilo-abc/nc__h-25__n-1/nc__h-25__n-1.beval[m
+[32m Done nc__h-25__n-1[m
+
+[36m ---------------------------
+ Starting benchmarks for nc__h-26__n-1
+[36m ---------------------------[m
+[33m Creating runscript in 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/runscripts/runscript_asprilo-abc_nc__h-26__n-1.xml [m
+[33m Removing old result directory [m
+[33m Moving to benchmarks-tool directory 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool [m
+[33m Calling ./bgen[m
+[33m Running sh start file 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool/output/asprilo-abc/nc__h-26__n-1/temporal-automata/komputer/start.sh [m
+Submitted batch job 776243
+Submitted batch job 776244
+Submitted batch job 776245
+Submitted batch job 776246
+Submitted batch job 776247
+Submitted batch job 776248
+[35m Waiting for all slurm process to finish...
+[32m Slurm queue is now empty [m
+[33m beval...[m
+[32m Evaluation results saved in  
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/results/asprilo-abc/nc__h-26__n-1/nc__h-26__n-1.beval[m
+[32m Done nc__h-26__n-1[m
+
+[36m ---------------------------
+ Starting benchmarks for nc__h-27__n-1
+[36m ---------------------------[m
+[33m Creating runscript in 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/runscripts/runscript_asprilo-abc_nc__h-27__n-1.xml [m
+[33m Removing old result directory [m
+[33m Moving to benchmarks-tool directory 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool [m
+[33m Calling ./bgen[m
+[33m Running sh start file 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool/output/asprilo-abc/nc__h-27__n-1/temporal-automata/komputer/start.sh [m
+Submitted batch job 776249
+Submitted batch job 776250
+Submitted batch job 776251
+Submitted batch job 776252
+Submitted batch job 776253
+Submitted batch job 776254
+[35m Waiting for all slurm process to finish...
+[32m Slurm queue is now empty [m
+[33m beval...[m
+[32m Evaluation results saved in  
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/results/asprilo-abc/nc__h-27__n-1/nc__h-27__n-1.beval[m
+[32m Done nc__h-27__n-1[m
+
+[36m ---------------------------
+ Starting benchmarks for nc__h-28__n-1
+[36m ---------------------------[m
+[33m Creating runscript in 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/runscripts/runscript_asprilo-abc_nc__h-28__n-1.xml [m
+[33m Removing old result directory [m
+[33m Moving to benchmarks-tool directory 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool [m
+[33m Calling ./bgen[m
+[33m Running sh start file 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool/output/asprilo-abc/nc__h-28__n-1/temporal-automata/komputer/start.sh [m
+Submitted batch job 776255
+Submitted batch job 776256
+Submitted batch job 776257
+Submitted batch job 776258
+Submitted batch job 776259
+Submitted batch job 776260
+[35m Waiting for all slurm process to finish...
+[32m Slurm queue is now empty [m
+[33m beval...[m
+[32m Evaluation results saved in  
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/results/asprilo-abc/nc__h-28__n-1/nc__h-28__n-1.beval[m
+[32m Done nc__h-28__n-1[m
+
+[36m ---------------------------
+ Starting benchmarks for nc__h-29__n-1
+[36m ---------------------------[m
+[33m Creating runscript in 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/runscripts/runscript_asprilo-abc_nc__h-29__n-1.xml [m
+[33m Removing old result directory [m
+[33m Moving to benchmarks-tool directory 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool [m
+[33m Calling ./bgen[m
+[33m Running sh start file 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool/output/asprilo-abc/nc__h-29__n-1/temporal-automata/komputer/start.sh [m
+Submitted batch job 776261
+Submitted batch job 776262
+Submitted batch job 776263
+Submitted batch job 776264
+Submitted batch job 776265
+Submitted batch job 776266
+[35m Waiting for all slurm process to finish...
+[32m Slurm queue is now empty [m
+[33m beval...[m
+[32m Evaluation results saved in  
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/results/asprilo-abc/nc__h-29__n-1/nc__h-29__n-1.beval[m
+[32m Done nc__h-29__n-1[m
+
+[36m ---------------------------
+ Starting benchmarks for nc__h-30__n-1
+[36m ---------------------------[m
+[33m Creating runscript in 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/runscripts/runscript_asprilo-abc_nc__h-30__n-1.xml [m
+[33m Removing old result directory [m
+[33m Moving to benchmarks-tool directory 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool [m
+[33m Calling ./bgen[m
+[33m Running sh start file 
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/benchmark-tool/output/asprilo-abc/nc__h-30__n-1/temporal-automata/komputer/start.sh [m
+Submitted batch job 776267
+Submitted batch job 776268
+Submitted batch job 776269
+Submitted batch job 776270
+Submitted batch job 776271
+Submitted batch job 776272
+[35m Waiting for all slurm process to finish...
+[32m Slurm queue is now empty [m
+[33m beval...[m
+[32m Evaluation results saved in  
+[35m    /home/hahnmartinlu/temporal-automata/atlingo/benchmarks/results/asprilo-abc/nc__h-30__n-1/nc__h-30__n-1.beval[m
+[32m Done nc__h-30__n-1[m
+No automata file for ../outputs/asprilo-abc/dfa-mso/d3/x7_y7_n49_r2_s4_ps2_pr4_u4_o4_l4_N001
+No automata file for ../outputs/asprilo-abc/dfa-mso/d3/x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001
+No automata file for ../outputs/asprilo-abc/nc/d2/x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001
+No automata file for ../outputs/asprilo-abc/nc/d2/x7_y7_n49_r2_s4_ps2_pr4_u4_o4_l4_N001
+No automata file for ../outputs/asprilo-abc/nc/d1/x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001
+No automata file for ../outputs/asprilo-abc/nc/d1/x7_y7_n49_r2_s4_ps2_pr4_u4_o4_l4_N001
+No automata file for ../outputs/asprilo-abc/nc/d3/x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001
+No automata file for ../outputs/asprilo-abc/nc/d3/x7_y7_n49_r2_s4_ps2_pr4_u4_o4_l4_N001
+Saved results/tables/asprilo-abc/d1/x7_y7_n49_r2_s4_ps2_pr4_u4_o4_l4_N001/size.csv
+Saved results/tables/asprilo-abc/d1/x7_y7_n49_r2_s4_ps2_pr4_u4_o4_l4_N001/size.tex
+Saved results/tables/asprilo-abc/d1/x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001/size.csv
+Saved results/tables/asprilo-abc/d1/x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001/size.tex
+Saved results/tables/asprilo-abc/d3/x7_y7_n49_r2_s4_ps2_pr4_u4_o4_l4_N001/size.csv
+Saved results/tables/asprilo-abc/d3/x7_y7_n49_r2_s4_ps2_pr4_u4_o4_l4_N001/size.tex
+Saved results/tables/asprilo-abc/d3/x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001/size.csv
+Saved results/tables/asprilo-abc/d3/x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001/size.tex
+Saved results/tables/asprilo-abc/d2/x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001/size.csv
+Saved results/tables/asprilo-abc/d2/x7_y7_n49_r3_s6_ps3_pr6_u6_o6_l6_N001/size.tex
+Saved results/tables/asprilo-abc/d2/x7_y7_n49_r2_s4_ps2_pr4_u4_o4_l4_N001/size.csv
+Saved results/tables/asprilo-abc/d2/x7_y7_n49_r2_s4_ps2_pr4_u4_o4_l4_N001/size.tex
+--------------------
+Summary
+--------------------
+Successful:
+  all-afw__h-13__n-0
+  all-dfa-mso__h-13__n-0
+  all-dfa-mso__h-12__n-0
+  all-dfa-stm__h-14__n-0
+  all-telingo__h-13__n-0
+  all-dfa-stm__h-12__n-0
+  all-telingo__h-14__n-0
+  all-telingo__h-12__n-0
+  all-nc__h-12__n-0
+  all-afw__h-14__n-0
+  all-nc__h-13__n-0
+  all-dfa-mso__h-14__n-0
+  all-dfa-stm__h-13__n-0
+  all-nc__h-14__n-0
+  all-afw__h-12__n-0
+Error:
+  dfa-mso__h-28__n-1
+  dfa-mso__h-24__n-1
+  dfa-mso__h-25__n-1
+  dfa-mso__h-30__n-1
+  dfa-mso__h-26__n-1
+  dfa-mso__h-29__n-1
+  dfa-mso__h-27__n-1

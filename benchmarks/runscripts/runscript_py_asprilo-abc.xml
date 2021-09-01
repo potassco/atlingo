@@ -1,0 +1,29 @@
+<runscript output="output/asprilo-abc/{APP}__h-{H}__n-{N}">
+
+	<machine name="komputer" cpu="24x8xE5520@2.27GHz" memory="24GB"/>
+	
+	<config name="seq-asprilo" template="../programs/seq-asprilo.sh"/>
+  
+	<system name="general_compute" version="1" measures="clingo" config="seq-asprilo">
+
+		<setting name="d1" cmdline="{APP} asprilo-abc {H} {N} d1 {CLINGO_ARGS}" tag="basic" />
+		<setting name="d2" cmdline="{APP} asprilo-abc {H} {N} d2 {CLINGO_ARGS}" tag="basic" />
+		<setting name="d3" cmdline="{APP} asprilo-abc {H} {N} d3 {CLINGO_ARGS}" tag="basic" />
+
+
+    </system>
+
+	<pbsjob name="pbs-gen" partition="short" timeout="1200" runs="1" script_mode="timeout" walltime="00:50:00" cpt="4"/>
+	<seqjob name="seq-gen" timeout="1200" runs="1" script_mode="timeout" walltime="00:50:00" parallel="1"/>
+
+	<benchmark name="asprilo-abc-benchmark">
+		<folder path="../instances/asprilo/abc"> 
+		</folder> 
+	</benchmark>
+
+	<project name="temporal-automata-py" job="seq-gen">
+		<runtag machine="komputer" benchmark="asprilo-abc-benchmark" tag="basic"/>
+	</project>
+
+</runscript>
+

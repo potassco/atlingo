@@ -1,0 +1,15 @@
+/outputs
+/tests/__pycache__
+/benchmarks/plots/*
+/tests/__pycache__
+/benchmarks/slurm*
+*/__pycache__/*
+/benchmarks/runscripts/runscript_*__*.xml
+/benchmarks/benchmark-tool/output*
+/benchmarks/cluster_script__*
+/.vscode
+.DS_Store
+*.DS_Store
+.vscode
+./benchmarks/results/*/*/*.ods
+*.ods

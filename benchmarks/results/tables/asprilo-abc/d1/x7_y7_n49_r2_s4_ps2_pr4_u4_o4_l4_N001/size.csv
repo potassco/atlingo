@@ -1,0 +1,5 @@
+,dfa-stm,afw,dfa-mso
+final_state,8,0,8
+initial_state,8,8,8
+state,32,16,32
+delta,104,72,104
