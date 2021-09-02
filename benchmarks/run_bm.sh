@@ -9,6 +9,17 @@ NC=`tput sgr0`
 set -e
 export PATH="$HOME/temporal-automata/stage_asp_gitlab/tools/MONA/Front:$PATH"
 
+############## Users parameters
+# set mode: sequential=py or cluster=cl
+mode=py
+
+ATLINGO_PATH=$HOME/temporal-automata
+#ATLINGO_PATH=$HOME/Education/Phd/potassco
+
+# if mode==cl, set username to your login in the cluster
+USERNAME="hahnmar"
+
+############## Commandline parameters
 DOM=$1
 APPROACH=$2
 HORIZON=$3
@@ -22,21 +33,10 @@ CLINGO_ARGS=$6
 NAME=${PREFIX}${APPROACH}__h-${HORIZON}__n-${MODELS}
 
 MACHINE=komputer # Value in <machine name="komputer"
-# set this
-ATLINGO_PATH=$HOME/temporal-automata
-#ATLINGO_PATH=$HOME/Education/Phd/potassco
 BT_PATH=$ATLINGO_PATH/atlingo/benchmarks/benchmark-tool
-
-# set mode: sequential=py or cluster=cl
-mode=cl
-#mode=py
-
-
 # this has to be the same as project name in run-benchmark.xml
 PROJECT=temporal-automata-$mode
 
-# if mode==cl, set username to your login in the cluster
-USERNAME="hahnmar"
 
 dir=$PWD
 echo ""

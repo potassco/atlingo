@@ -16,7 +16,7 @@
 		</folder> 
 	</benchmark>
 	
-	<project name="temporal-automata" job="pbs-gen">
+	<project name="temporal-automata-cl" job="pbs-gen">
 		<runtag machine="komputer" benchmark="elevator-benchmark" tag="basic"/>
 	</project>
 

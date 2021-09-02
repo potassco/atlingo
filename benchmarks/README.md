@@ -6,6 +6,7 @@ The files found in [./benchmarks/programs](../benchmarks/programs) correspond to
 
 We use the following scripts to automatize the jobs for the benchmarks.
 
+
 ##### [./run_bm.sh](./run_bm.sh) 
 - Generates specialized run scripts by duplicating the provided [template for the domain](./runscripts/runscript_asprilo-abc.xml) and replacing special parameters: (Horizon, number of models, and additional).
 - Calls `./bgen` to generate benchmarking scripts from the benchmarking tool.
@@ -72,7 +73,7 @@ optional arguments:
 
 ## *asprilo* Benchmarks from paper
 
-1. Setup path to atlingo in folder in [./run_bm.sh](./run_bm.sh)
+1. Setup path to atlingo in folder in [./run_bm.sh](./run_bm.sh) and the desired mode
 
 1. Run all benchmarks from script `./batch_all_asprilo-abc.sh`
 
@@ -80,3 +81,5 @@ optional arguments:
 
 3. Plot results `./plot_script_asprilo-abc.sh`
 
+
+The benchmarks can run in a linux OS, if you are using a different system you would need to compile a runsolver and replace [./programs/runsolver-3.4](./programs/runsolver-3.4).
