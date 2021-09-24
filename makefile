@@ -57,7 +57,7 @@ clean:
 viz-tex:
 	@ printf "$BVisualizing APP=$(APP) DOM=$(DOM) CONSTRAINT=$(CONSTRAINT)$ INSTANCE=$(NAME_INSTANCE) HORIZON=$(HORIZON) $(NC)\n"
 	
-	python scripts/viz.py --app=$(APP) --dom=$(DOM) --instance=$(NAME_INSTANCE) --constraint=$(CONSTRAINT) --instance_path=$(INSTANCE) --latex --labels
+	python scripts/viz.py --app=$(APP) --dom=$(DOM) --instance=$(NAME_INSTANCE) --constraint=$(CONSTRAINT) --instance_path=$(INSTANCE) --latex 
 	
 
 	@ printf "$BCompiling latex...$(NC)\n"
