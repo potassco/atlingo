@@ -13,3 +13,5 @@
 {move(robot(N),(-1,0))} :- robot(N).
 {move(robot(N),(0,1))} :- robot(N).
 {move(robot(N),(0,-1))} :- robot(N).
+
+{follow(robot(N),robot(M))} :- robot(N),robot(M).

@@ -21,4 +21,7 @@ trace(ID,T) :- pickup(robot(N),shelf(S),T), prop(ID,("pickup",("robot",N),("shel
 trace(ID,T) :- putdown(robot(N),shelf(S),T), prop(ID,("putdown",("robot",N),("shelf",S))).
 
 
+trace(ID,T) :- follow(robot(N),robot(M),T), prop(ID,("follow",("robot",N),("robot",M))).
+
+
 % trace(ID,T) :- move(robot(N),T),prop(ID,("move",("robot",N),(X,Y))).
