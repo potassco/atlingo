@@ -21,6 +21,7 @@ $(eval PY_PARAMS ?= )
 
 # ------- Files needed for each appproach RUN_APP_FILES_$APP
 $(eval RUN_APP_FILES_afw = encodings/automata_run/run.lp dom/$(DOM)/glue.lp)
+$(eval RUN_APP_FILES_afw2 = encodings/automata_run/run2w.lp dom/$(DOM)/glue.lp)
 # $(eval RUN_APP_FILES_telingo = dom/elevator/encoding.lp )
 $(eval RUN_APP_FILES_dfa-mso = encodings/automata_run/run.lp)
 $(eval RUN_APP_FILES_dfa-stm = encodings/automata_run/run.lp)
@@ -167,6 +168,28 @@ translate-afw:
 		rm $(PATH_OUT)/tmp_afw_automata.lp;\
 		printf "$(G)Join afw successfull $(NC)\n";\
 	fi;
+
+
+######################  AFW2 ########################
+
+translate-afw2:
+
+	@if [ "$(APP)" = "afw2" ]; then echo ""; else  echo "$(R)Inconsistency APP should be afww$(NC)"; fi
+
+	@ printf "$BReifying constraint... $(NC)\n"
+
+	gringo encodings/translations/grammar.lp $(PATH_INPUT).lp $(INSTANCE) $(TRANSLATE_FILES_$(DOM)) --output=reify > $(PATH_OUT)/reified.lp 
+
+
+	@if grep theory_atom $(PATH_OUT)/reified.lp -q; then\
+		printf "$(G)Reification successfull $(NC)\n";\
+	else \
+		printf "$(R)Reification failed, theory was not reified\n";\
+		exit 1;\
+    fi;
+
+	@ printf "$(B)Translating.... $(NC)\n"
+	clingo $(PATH_OUT)/reified.lp ./encodings/translations/ldlf22afw.lp -n 0 --outf=0 -V0 --out-atomf=%s. --warn=none | head -n1 | tr ". " ".\n"  > $(PATH_OUT)/afw2_automata.lp
 
 
 

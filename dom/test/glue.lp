@@ -9,7 +9,6 @@ trace(ID,T) :- r(T),prop(ID,"r").
 trace(ID,T) :- s(T),prop(ID,"s").
 trace(ID,T) :- a(T),prop(ID,"a").
 trace(ID,T) :- b(T),prop(ID,"b").
-trace(ID,T) :- b(T),prop(ID,"b").
 trace(ID,T) :- c(T),prop(ID,"c").
 trace(ID,T) :- b(1,T),prop(ID,("b",1)).
 trace(ID,T) :- b(2,T),prop(ID,("b",2)).

@@ -86,6 +86,7 @@ def run_check(constraint,trace="",horizon=3,app="afw",generate=False,extra_files
     automata_path = "outputs/test/{}/cons_tmp/instance_tmp/{}_automata.lp".format(app,app)
     run_files = {
         "afw": ['./encodings/automata_run/run.lp',"./dom/test/glue.lp"],
+        "afw2": ['./encodings/automata_run/run2w.lp',"./dom/test/glue.lp"],
         "dfa-mso": ['./encodings/automata_run/run.lp'],
         "dfa-stm": ['./encodings/automata_run/run.lp'],
         "nfa": ['./encodings/automata_run/run.lp'],
@@ -586,8 +587,6 @@ class TestMain(TestCase):
 
         result = run_check(":-not &del{ * (?q) .>* p}.",trace="p(0).",horizon=2,app="telingo")
         self.assert_sat(result)
-
-
     
     def test_asprilo(self):
 
@@ -697,8 +696,8 @@ class TestMain(TestCase):
         for cons in constraints:
             for h in range(1,4):
                 # print("Testing {} with h = {}".format(cons,h))
-                comapre_apps(cons,h,apps=['afw','dfa-mso','dfa-stm','nfa','nfa-afw'],test_instance=self)
                 # comapre_apps(cons,h,apps=['afw','dfa-mso','dfa-stm','nfa','nfa-afw'],test_instance=self)
+                comapre_apps(cons,h,apps=['afw','afw2'],test_instance=self)
 
     def test_closure(self):
         formula = LDLfFormula.from_lp(inline_data= ":-not &del{ * ((?p + ?q) ;; &t)  .>* ?r .>? &true}.")[0]
